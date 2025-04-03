@@ -1,7 +1,7 @@
 name: Release WRT
 run-name: Release - ${{ inputs.model }}
 
-on:
+off:
   workflow_dispatch:
     inputs:
       model:
