@@ -1,7 +1,7 @@
 name: Build WRT
 run-name: Build - ${{ inputs.model }}
 
-on:
+off:
   workflow_dispatch:
     inputs:
       model:
